@@ -3,77 +3,113 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description"
-      content="Discover our thrilling rafting trips with detailed itineraries and pricing.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Water Rafting Adventures | Trips</title>
-    <link rel="stylesheet" href="rafting.css">
+    <title>Trips | White Water Rafting Co.</title>
+
+    <meta name="description"
+      content="Explore our thrilling rafting trips including half-day adventures, extreme rapids, and family-friendly experiences.">
+    <meta name="author" content="Abigail Malina Masitsa">
+
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <h1>White Water Rafting Adventures</h1>
+        <div class="logo-box">
+            <img src="images/zwwrblue.jpg" alt="White Water Rafting Logo">
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html" class="active">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <section class="cta">
-        <p>Have questions? <a href="contact.html">Contact Us</a> today!</p>
-    </section>
-    <section class="trips-grid">
-        <div> <img src="images/raftingthunderran.jpg" alt="Family rafting trip">
-            <h3>Family Fun Float</h3>
-            <p>A gentle rafting experience perfect for families and beginners.</p>
-        </div>
-        <div> <img src="images/rafting53_600.jpg" alt="Intermediate rafting trip">
-            <h3>Rapid Rush</h3>
-            <p>Intermediate rapids for thrill-seekers looking for excitement.</p>
-        </div>
-        <div> <img src="images/dientes.jpg" alt="Extreme rafting trip">
-            <h3>Extreme Expedition</h3>
-            <p>Advanced rapids for experienced rafters ready for a challenge.</p>
-        </div>
-    </section>
-    <section class="trips-table">
-        <h3>Available Trips</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Trip Name</th>
-                    <th>Duration</th>
-                    <th>Difficulty</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Family Fun Float</td>
-                    <td>2 hours</td>
-                    <td>Easy</td>
-                    <td>$50</td>
-                </tr>
-                <tr>
-                    <td>Rapid Rush</td>
-                    <td>4 hours</td>
-                    <td>Intermediate</td>
-                    <td>$90</td>
-                </tr>
-                <tr>
-                    <td>Extreme Expedition</td>
-                    <td>6 hours</td>
-                    <td>Advanced</td>
-                    <td>$150</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+
+    <main>
+
+        <section class="trip-cta">
+            <h1>Our Rafting Adventures</h1>
+            <p>Have questions or ready to book?</p>
+            <a href="contact.html" class="cta-button">Contact Us Today</a>
+        </section>
+
+        <section class="trip-grid">
+
+            <div class="trip-card">
+                <img src="images/raftinghalfdayadventure.jpg" alt="Half Day Adventure">
+                <h2>Half Day Adventure</h2>
+                <p>Perfect for beginners and families. Enjoy scenic views and moderate rapids in
+                    this 3-hour guided experience.</p>
+            </div>
+
+            <div class="trip-card">
+                <img src="images/dientes.jpg" alt="Los Dientes del Diablo">
+                <h2>Los Dientes del Diablo</h2>
+                <p>For thrill-seekers! Conquer intense Class IV rapids and experience heart-pounding
+                    excitement.</p>
+            </div>
+
+            <div class="trip-card">
+                <img src="images/bigmallard.jpg" alt="Big Mallard">
+                <h2>Big Mallard Expedition</h2>
+                <p>A full-day adventure combining teamwork, challenge, and unforgettable river
+                    exploration.</p>
+            </div>
+
+        </section>
+
+        <section class="trip-table">
+            <h2>All Available Trips</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Duration</th>
+                        <th>Difficulty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Half Day Adventure</td>
+                        <td>3 Hours</td>
+                        <td>Moderate</td>
+                        <td>$75</td>
+                    </tr>
+                    <tr>
+                        <td>Los Dientes del Diablo</td>
+                        <td>5 Hours</td>
+                        <td>Advanced</td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td>Big Mallard Expedition</td>
+                        <td>Full Day</td>
+                        <td>Intermediate</td>
+                        <td>$150</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
     <footer>
-        <p>&copy; 2026 White Water Rafting Adventures | Designed for learning</p>
+        <p>
+            © 2026 White Water Rafting Co. | Abigail Malina Masitsa
+        </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
     </footer>
 </body>
 

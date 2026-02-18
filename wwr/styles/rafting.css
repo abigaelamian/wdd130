@@ -118,13 +118,15 @@ article {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 40%;
+    left: 10%;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent);
-    color: #000000;
+    color: white;
+    font-size: 3rem;
 }
 
 .hero article {
@@ -145,7 +147,13 @@ article {
 
 }
 
-.grid,
+.grid-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
 .trips-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -176,6 +184,13 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 1em 0;
+}
+
+.cta,
+.newsletter,
+.trip-table {
+    padding: 2rem;
+    text-align: center;
 }
 
 table,

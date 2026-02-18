@@ -3,51 +3,88 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description"
-      content="Experience thrilling white water rafting adventures with expert guides.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Water Rafting Adventures | Home</title>
-    <link rel="stylesheet" href="rafting.css">
+    <title>Home | White Water Rafting Co.</title>
+
+    <meta name="description"
+      content="Experience thrilling white water rafting adventures. Explore our exciting trips and create unforgettable memories.">
+    <meta name="author" content="Abigail Malina Masitsa">
+
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <h1>White Water Rafting Adventures</h1>
+        <div class="logo-box">
+            <img src="images/zwwrblue.jpg" alt="White Water Rafting Logo">
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <section class="hero"> <img src="images/raftingthunderran.jpg"
-          alt="Rafting adventure on a river">
-        <h2 class="hero-text">Ride the Rapids, Feel the Adventure!</h2>
-    </section>
-    <section class="newsletter">
-        <h3>Sign Up for Our Newsletter</h3>
-        <form> <label for="name">Name:</label> <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label> <input type="email" id="email" name="email" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
-    <section class="cta">
-        <p>Ready for your next adventure?</p> <a href="trips.html" class="btn">Explore Our Trips</a>
-    </section>
-    <section class="grid">
-        <div> <img src="images/rafting.jpg" alt="Group rafting down river">
-            <h3>Adventure for All</h3>
-            <p>From beginners to experts, we have trips tailored for every skill level.</p>
-        </div>
-        <div> <img src="images/raftinghalf.jpg" alt="Rafting through rapids">
-            <h3>Unforgettable Experiences</h3>
-            <p>Our guides ensure safety and fun while you conquer the rapids.</p>
-        </div>
-    </section>
+
+    <main>
+
+        <section class="hero">
+            <img src="images/rafting.jpg" alt="White water rafting adventure">
+            <h1>Adventure Starts Here</h1>
+        </section>
+
+        <section class="cta">
+            <h2>Ready for the Ride of a Lifetime?</h2>
+            <p>Explore our exciting rafting packages and book your adventure today.</p>
+            <a href="trips.html" class="cta-button">View Our Trips</a>
+        </section>
+
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <form action="#" method="post">
+                <label for="newsletter-name">Name:</label>
+                <input type="text" id="newsletter-name" name="newsletter-name" required>
+
+                <label for="newsletter-email">Email:</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" required>
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section class="grid-info">
+            <div>
+                <img src="images/bigmallard.jpg" alt="Rafting team navigating rapids">
+                <h3>Our Purpose</h3>
+                <p>We provide safe, exciting, and unforgettable white water rafting experiences for
+                    adventurers of all skill levels.</p>
+            </div>
+
+            <div>
+                <img src="images/raftinghalfdayadventure.jpg" alt="Family rafting adventure">
+                <h3>What We Offer</h3>
+                <p>From half-day trips to extreme rapid challenges, we offer a variety of packages
+                    designed to create lasting memories.</p>
+            </div>
+        </section>
+
+    </main>
+
     <footer>
-        <p>&copy; 2026 White Water Rafting Adventures | Designed for learning</p>
+        <p>
+            © 2026 White Water Rafting Co. | Abigail Malina Masitsa
+        </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
     </footer>
 </body>
 
